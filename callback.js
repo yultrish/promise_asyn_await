@@ -19,6 +19,8 @@ const loginUser = (email, password, callback) => {
 
 }
 
+loginUser('yul.com', 123, )
+
 const getUserVideos = (email, callback) => {
     console.log('getting videos ..!')
     console.log(email)
